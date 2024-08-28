@@ -1,0 +1,13 @@
+{
+  "watch": ["src"],
+  "ext": "js,jsx,ts,tsx,json,html,css,scss",
+  "ignore": [
+    "build/node_modules",
+    "build",
+    "node_modules",
+    "**/node_modules",
+    "*/node_modules",
+    "dist"
+  ],
+  "exec": "npm run build && node build/src/index.js"
+}
